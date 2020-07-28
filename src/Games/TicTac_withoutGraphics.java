@@ -104,6 +104,7 @@ public class TicTac_withoutGraphics {
         // if invalid position is entered
         if(x < 0 ||x > 2 || y < 0 || y > 2){
             System.out.println("Invalid Position, game will exit");
+            System.exit(0);
         }
         // if position already occupied
         if(board[x][y] == 1 || board[x][y] == -1){
